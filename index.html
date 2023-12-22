@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOODLE JUMP</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="info" onclick="mation()">
+        <img src="assets/images/download__1_-removebg-preview.png"/>
+        <div id="card" class="card">
+            <h2 class="judul"></h2>
+            <h2 class="judul1">*Jika kalian merasa game nya itu error atau semacam nya, kalian harus reload atau refresh sampai doodle bisa dimainkan</h2>
+            <h2 class="judul1">*Permainan doodle ini tidak seperti doodle lain nya, dimana disini tujuan akhir nya adalah mencapai score +- 10K</h2>
+            <h2 class="judul1">*Jika permainan nya stuck dan tidak bisa lanjut, kalian harus reload website nya, karena hoki hoki an agar bisa lanjut permainan nya</h2>
+            <h2 class="judul1">*Jika kalian merasa sudah mencapai score +- 10K, segera kirim ss an kepada saya hehehe</h2>
+            <h2 class="judul1">*Kecepatan doodle memang seperti itu yagesya(sebenernya itu suatu error namun itu juga fitur dalam game)hehehe</h2>
+            <h2 class="judul1">*Jika kalian melewati skor 10.000 maka game akan berhenti agar kalian segera beristirahat</h2>
+            <h2 class="judul1">*Saya harap yang sudah berkunjung di sini, bisa memberikan ide atau gagasan terhadapa game ini untuk kedepan nya</h2>
+            
+        </div>
+    </div>
+
+    <div class="bungkusan">
+        <canvas width="400" height="667" id="dudel">
+            <div id="skorDoodle"></div>
+        </canvas>
+        <div class="box" id="box">
+            <div class="slider">
+                <input type="range" id="slider" class="slider" min="0" max="100" value="20">
+            </div>
+        </div>
+    </div>
+    <h1 class="thanks" id="thanks">TERIMAKASIH SUDAH BERMAIN YAAA. JANGAN LUPA ISTIRAHAT!!!</h1>
+
+    
+    
+    <audio id="platformSound">
+        <source src="assets/sound/sound effects_jump.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="platformSoundBro">
+        <source src="assets/sound/WhatsApp Audio 2023-11-19 at 09 (mp3cut.net).mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="platformSoundBrow">
+        <source src="assets/sound/sound effects_crash.mp3" type="audio/mpeg">
+    </audio>
+
+    
+    <script src="jump.js"></script>
+</body>
+</html>
